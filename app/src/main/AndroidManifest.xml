@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vaio.test001" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonalData"
+            android:label="@string/title_activity_personal_data" >
+        </activity>
+        <activity
+            android:name=".ADDBList"
+            android:label="@string/title_activity_addblist" >
+        </activity>
+        <activity
+            android:name=".ADDetail"
+            android:label="@string/title_activity_addetail" >
+        </activity>
+        <activity
+            android:name=".MyAttentionList"
+            android:label="@string/title_activity_my_attention_list" >
+        </activity>
+        <activity
+            android:name=".LikeMeList"
+            android:label="@string/title_activity_like_me_list" >
+        </activity>
+        <activity
+            android:name=".RecommendList"
+            android:label="@string/title_activity_recommend_list" >
+        </activity>
+        <activity
+            android:name=".EditPersonalData"
+            android:label="@string/title_activity_edit_personal_data" >
+        </activity>
+    </application>
+
+</manifest>

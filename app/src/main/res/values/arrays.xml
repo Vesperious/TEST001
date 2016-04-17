@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ArrayUniversity">
+        <item>吉林大学</item>
+    </string-array>
+    <string-array name="ArrayCollege">
+        <item>软件学院</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/img1"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="研究生导师推荐系统"
+        android:id="@+id/MainTitle"
+        android:textSize="100px"
+        android:textColor="#7aa4ff" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="个人信息"
+            android:id="@+id/btnPersonalData"
+            android:layout_weight="0.35"
+            android:singleLine="true" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="向你推荐"
+            android:id="@+id/btnRecommend"
+            android:layout_weight="0.65"
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="导师库"
+            android:id="@+id/btnAdvisorDB"
+            android:layout_weight="0.5" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="我的关注"
+                android:id="@+id/btnMyAttention"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="关注我的"
+                android:id="@+id/btnLikeMe"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    Linear
+
+</LinearLayout>

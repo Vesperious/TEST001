@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="vaio.test001.PersonalData"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.17">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:id="@+id/EditMyData"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后退"
+            android:id="@+id/ExitMyData"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/MyImg"
+            android:layout_weight="0.3"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="姓名"
+                android:id="@+id/MyName"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="性别"
+                android:id="@+id/MySex"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="户籍"
+                android:id="@+id/MyCity"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="学校："
+        android:id="@+id/textView"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="学校"
+        android:id="@+id/MyUniversity"
+        android:layout_weight="0.2" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="专业："
+        android:id="@+id/textView2"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="专业"
+        android:id="@+id/MyCollege"
+        android:layout_weight="0.2" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="研究意向："
+        android:id="@+id/textView3"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="研究意向"
+        android:id="@+id/MyPreference"
+        android:layout_weight="0.2" />
+
+</LinearLayout>
